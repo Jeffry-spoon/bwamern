@@ -11,7 +11,7 @@ export default function Header(props) {
   return (
     <header className="spacing-sm">
       <div className="container">
-        <nav className="navbar navbar-expand-lg navbar-light" type="ink">
+        <nav className="navbar navbar-expand-lg navbar-light">
           <a href="/">
             <BrandIcon type="link" href="/stories" />
           </a>
