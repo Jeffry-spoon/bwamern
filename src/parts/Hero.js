@@ -4,10 +4,6 @@ import Fade from "react-reveal/Fade";
 import ImageHero from "assets/Image/img-hero.jpg";
 import ImageHero_ from "assets/Image/img-hero-frame.png";
 
-import IconCities from "assets/Image/icons/ic_cities.png";
-import IconTraveler from "assets/Image/icons/ic_traveler.png";
-import IconTreasure from "assets/Image/icons/ic_treasure.png";
-
 import Button from "elements/Button";
 
 import formatNumber from "utils/formatNumber";
@@ -40,7 +36,7 @@ export default function Hero(props) {
 
             <div className="row " style={{ marginTop: 50 }}>
               <div className="col-auto" style={{ marginRight: 20 }}>
-                <img width="36" height="36" src={IconTraveler} alt={`${props.data.travelers}Travelers`} />
+                <img width="36" height="36" src="/images/ic_traveler.png" alt={`${props.data.travelers}Travelers`} />
                 <h6 className="mt-3">
                   {formatNumber(props.data.travelers)}{" "}
                   <span className="text-gray-500 font-weight-light" style={{ color: "#b0b0b0", fontWeight: 300 }}>
@@ -49,7 +45,7 @@ export default function Hero(props) {
                 </h6>
               </div>
               <div className="col-auto" style={{ marginRight: 20 }}>
-                <img width="36" height="36" src={IconTreasure} alt={`${props.data.treasures}Travelers`} />
+                <img width="36" height="36" src="/images/ic_treasure.png" alt={`${props.data.treasures}Treasures`} />
                 <h6 className="mt-3 " style={{ color: "#454D66" }}>
                   {formatNumber(props.data.treasures)}{" "}
                   <span className="text-gray-500 font-weight-light" style={{ color: "#b0b0b0", fontWeight: 300 }}>
@@ -58,7 +54,7 @@ export default function Hero(props) {
                 </h6>
               </div>
               <div className="col-auto" style={{ marginRight: 20 }}>
-                <img width="36" height="36" src={IconCities} alt={`${props.data.cities}Travelers`} />
+                <img width="36" height="36" src="/images/ic_cities.png" alt={`${props.data.cities}Cities`} />
                 <h6 className="mt-3" style={{ color: "#454D66" }}>
                   {formatNumber(props.data.cities)}{" "}
                   <span className="text-gray-500" style={{ color: "#b0b0b0", fontWeight: 300 }}>

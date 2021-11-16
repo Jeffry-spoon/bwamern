@@ -208,7 +208,7 @@ $line-height-sm: 1.5 !default;
 $border-width: 1px !default;
 $border-color: $gray-300 !default;
 
-$border-radius: 0.25rem !default;
+$border-radius: 0.9875rem !default;
 $border-radius-lg: 0.3rem !default;
 $border-radius-sm: 0.2rem !default;
 
@@ -246,9 +246,9 @@ $font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
 $font-size-lg: $font-size-base * 1.25 !default;
 $font-size-sm: $font-size-base * 0.875 !default;
 
-$font-weight-lighter: lighter !default;
+$font-weight-lighter: 100 !default;
 $font-weight-light: 300 !default;
-$font-weight-normal: 400 !default;
+$font-weight-normal: 500 !default;
 $font-weight-bold: 700 !default;
 $font-weight-bolder: bolder !default;
 
@@ -279,7 +279,7 @@ $display3-weight: 300 !default;
 $display4-weight: 300 !default;
 $display-line-height: $headings-line-height !default;
 
-$lead-font-size: $font-size-base * 1.25 !default;
+$lead-font-size: $font-size-base * 1.125 !default;
 $lead-font-weight: 300 !default;
 
 $small-font-size: 80% !default;
@@ -1001,7 +1001,7 @@ $breadcrumb-font-size: null !default;
 
 $breadcrumb-padding-y: 0.75rem !default;
 $breadcrumb-padding-x: 1rem !default;
-$breadcrumb-item-padding: 0.5rem !default;
+$breadcrumb-item-padding: 1.5rem !default;
 
 $breadcrumb-margin-bottom: 1rem !default;
 
